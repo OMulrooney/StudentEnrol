@@ -13,6 +13,7 @@ class Course {
 	Double tuitionFees
 
     static constraints = {
+
 	department blank:false, nullable:false
 	leader blank:false, nullable:false
 	code blank:false, nullable:false
